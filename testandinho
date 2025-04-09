@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Masterlist Furlumies</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: #dfe8f1;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .entry {
+      background-color: #fff;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .entry img {
+      max-width: 100px;
+      float: left;
+      margin-right: 15px;
+      border-radius: 8px;
+    }
+
+    .entry h2 {
+      margin-top: 0;
+    }
+
+    .clear {
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Masterlist Furlumies</h1>
+    <p>Lista oficial de Furlumies registrados</p>
+  </header>
+
+  <div class="entry">
+    <img src="https://via.placeholder.com/100" alt="Furlumie">
+    <h2>Nome: Quasarix</h2>
+    <p><strong>Dono:</strong> @usuário</p>
+    <p><strong>Raridade:</strong> Quasarix</p>
+    <p><strong>Traits:</strong> Pele verde, cabelo lilás, antenas duplas, luzinhas, orelhas caídas</p>
+    <div class="clear"></div>
+  </div>
+
+  <div class="entry">
+    <img src="https://via.placeholder.com/100" alt="Furlumie">
+    <h2>Nome: Astraflor</h2>
+    <p><strong>Dono:</strong> @exemplo</p>
+    <p><strong>Raridade:</strong> Enchanted</p>
+    <p><strong>Traits:</strong> Traços florais, asas translúcidas, olhos brilhantes</p>
+    <div class="clear"></div>
+  </div>
+
+  <!-- Adicione mais Furlumies aqui copiando o bloco .entry -->
+
+</body>
+</html>
